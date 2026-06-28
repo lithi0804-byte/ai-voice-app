@@ -1,33 +1,28 @@
-# AI Voice Notes Transcriber
+//# AI Voice Notes Transcriber
 
-## Project Description
-
-This project converts voice audio into text using Whisper AI. It also generates an AI-powered summary using the Groq API and allows users to ask questions about the generated transcript.
+## Description
+AI app that converts speech to text, generates summaries, and allows chatting with transcript using Groq AI.
 
 ## Features
-
-* Speech to Text (Whisper AI)
-* AI Summarization (Groq API)
-* Chat with Transcript
+- Speech to Text (Whisper AI)
+- AI Summarization (Groq API)
+- Chat with Transcript
 
 ## Tech Stack
+- Python
+- Flask
+- Whisper AI
+- Groq API
+- Make.com (automation)
 
-* Python
-* Flask
-* Gradio
-* Whisper AI
-* Groq API
-
-## How It Works
-
-1. Upload or record an audio file.
-2. Convert speech to text using Whisper AI.
-3. Generate a summary using the Groq API.
-4. Ask questions related to the transcript.
-5. Receive AI-generated answers based on the transcript.
+## Workflow
+1. Upload audio file
+2. Convert speech → text
+3. Generate AI summary
+4. Ask questions on transcript
+5. Get AI answers
 
 ## Output
-
-* Speech converted into text (Transcript)
-* AI-generated summary
-* AI-generated answers based on the transcript
+- Transcript from audio
+- AI summary
+- Chat responses from transcript
